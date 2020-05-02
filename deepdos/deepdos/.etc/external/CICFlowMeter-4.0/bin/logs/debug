@@ -31,3 +31,7 @@
 2020-05-02 10:49:22 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/ids/deepdos/deepdos/.etc/pcap_info
 2020-05-02 10:49:22 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/ids/deepdos/deepdos/.etc/flow_output
 2020-05-02 10:49:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/ids/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-05-02 11:02:21 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/ids/deepdos/deepdos/.etc/pcap_info
+2020-05-02 11:02:21 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/ids/deepdos/deepdos/.etc/flow_output
+2020-05-02 11:02:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2020-05-02 11:02:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/ids/deepdos/deepdos/.etc/pcap_info/out.pcap
