@@ -1,0 +1,156 @@
+2020-04-14 15:41:14 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:14 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:14 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:15 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:15 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:16 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:16 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:17 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:18 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:18 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:19 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:19 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:20 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:20 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:20 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:21 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:21 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:23 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:23 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:23 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:24 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:24 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:26 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:26 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:27 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:27 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:27 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:29 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:29 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:29 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:30 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:30 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:31 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:31 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:31 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:33 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:33 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:34 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:34 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:34 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:35 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:36 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:36 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:37 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:37 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:39 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:39 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:40 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:41 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:41 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:42 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:41:43 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:41:43 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:41:45 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:43:43 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:43:43 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:43:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:52 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:52 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:53:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:53 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:53 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:53:54 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:54 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:54 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:53:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:55 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:55 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:53:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:57 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:57 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:53:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:58 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:58 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:53:58 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:53:59 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:53:59 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:00 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:13 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:13 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:13 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:14 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:14 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:16 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:16 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:17 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:17 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:19 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:19 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:20 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:20 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:55 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:55 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 00 0c  29 c5 e9 12* 86 dd 60 0b    33......).....`.
+0010: 8e 38 00 35  11 ff fe 80  00 00 00 00  00 00 02 0c    .8.5............
+0020: 29 ff fe c5  e9 12 ff 02  00 00 00 00  00 00 00 00    )...............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 35  12 a9 00 00    ...........5....
+0040: 00 00 00 02  00 00 00 00  00 00 05 5f  69 70 70 73    ..........._ipps
+0050: 04 5f 74 63  70 05 6c 6f  63 61 6c 00  00 0c 00 01    ._tcp.local.....
+0060: 04 5f 69 70  70 c0 12 00  0c 00 01*                   ._ipp......     
+
+
+2020-04-14 15:54:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:57 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:57 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:54:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:54:58 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:54:58 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:00 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:01 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:01 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:01 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:02 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:02 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:26 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:26 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:27 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:37 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:37 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:39 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:39 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:39 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:40 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:40 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:40 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:41 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:42 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:42 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:43 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:55:44 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:55:44 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:55:45 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 15:56:10 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info
+2020-04-14 15:56:10 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/soylumu/Desktop/deepdos/deepdos/.etc/flow_output
+2020-04-14 15:56:10 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/soylumu/Desktop/deepdos/deepdos/.etc/pcap_info/out.pcap
+2020-04-14 16:52:10 INFO  cic.cs.unb.ca.jnetpcap.worker.TrafficFlowWorker    Pcap is listening...
+2020-04-14 16:52:17 INFO  cic.cs.unb.ca.flow.ui.FlowMonitorPane    Pcap stop listening
+2020-04-14 16:52:17 INFO  cic.cs.unb.ca.flow.ui.FlowMonitorPane    path:/home/soylumu/Desktop/deepdos/deepdos/.etc/external/CICFlowMeter-4.0/bin/data/daily/2020-04-14_Flow.csv
+2020-04-14 16:53:24 INFO  cic.cs.unb.ca.ifm.Cmd    Please select pcap!
