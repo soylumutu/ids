@@ -10,6 +10,9 @@
 ![PyPI - License](https://img.shields.io/pypi/l/deepdos)
 
 ## Description
+
+I changed deepdos packet with random forest classifier with my own columns from CICFlowMeter. Other than that, it is all same with deepdosv0.9.95.  
+
 Welcome to deepdos, the python program written to monitor and potentially secure your network
 from ddos attacks! While not currently utilizing deep learning to classify packets, deepdos currently
 utilizes logistic regression in order to classify packets and has so far been trained on 200,000 packets from
@@ -17,17 +20,6 @@ all sorts of DDOS attacks and normal traffic setup. This project couldn't have b
 done without the help of the Canadian Institute for Cybersecurity with providing both the original flow dataset 
 and tool to create flow csvs from .pcap files. Their site and all resources have been linked at the bottom.
 
-
-## Goals
-### Short term goals
-- [ ] Add LR test metrics on startup
-- [ ] Update LR to use better data for better performance
-- [x] Add command line interface
-
-### Long term goals
-- [ ] Convert Logistic regression model to a neural network
-- [ ] Support both macos and Linux (potentially Windows as well if pcap is easy)
-- [ ] Add ddos mitigation/firewall rule support
 
 ## How to run/setup
 
