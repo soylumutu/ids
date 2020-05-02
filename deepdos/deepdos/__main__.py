@@ -117,7 +117,8 @@ class DeepDos:
         self.log_format(mal_result, mal_flow, mal_proba)
 
         # data to ips
-        obj2send = {"mal_result": mal_result, "mal_flow": mal_flow, "mal_proba": mal_proba}
+        #obj2send = {"mal_result": mal_result, "mal_flow": mal_flow, "mal_proba": mal_proba}
+        obj2send = {"mal_flow": mal_flow}
         return obj2send
 
     def log_format(self, mal_result, mal_flow, mal_proba):
