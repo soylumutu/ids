@@ -2,7 +2,7 @@
     The argument registery
 """
 from deepdos.args.argument import Argument
-from deepdos.conf import MY_MODEL
+from deepdos.conf import RF_BINARY
 
 
 class ModelTypeArg(Argument):
@@ -22,7 +22,7 @@ class ModelTypeArg(Argument):
             action="store",
             help="The model that you would like to use for classifying the data",
             dest="model_type",
-            default=f"{MY_MODEL}",
+            default=f"{RF_BINARY}",
         )
 
     def process_argument(self, args, options: dict):

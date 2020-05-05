@@ -22,7 +22,11 @@ print(ETC_DIR)
 
 # Latest stable model
 LATEST_STABLE_MODEL = "lr-stable-0.9.0.pickle"
-MY_MODEL = "random_forest.pickle"
+RF_MULTICLASS = "rfMulticlass.pickle"
+RF_BINARY = "rfBinary.pickle"
+DNN_BINARY = "dense5_binary.hdf5"
+ACTIVE_MODEL = DNN_BINARY
+
 HEADERSIZE = 32
 SERVER_IP = ''
 SERVER_PORT = 50008

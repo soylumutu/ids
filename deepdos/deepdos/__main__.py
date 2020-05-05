@@ -98,35 +98,43 @@ class DeepDos:
         proba = self.model.predict_proba(flow_data)
         
         #send only malicious packet info
-        mal_result = []
+        #mal_result = []
+        mal_result = False
         mal_flow = []
-        mal_proba = []
+        #mal_proba = []
 
-        for res, prob, flow in zip(result, proba, flow_data):
+        for res, flow in zip(result, flow_data):
             if res != 0:
-                mal_result.append(res)
+                #mal_result.append(res)
+                mal_result = True
                 flow[0] = str(ipaddress.ip_address(flow[0]))
                 flow[2] = str(ipaddress.ip_address(flow[2]))
                 mal_flow.append(flow)
-                mal_proba.append(prob)
+                #mal_proba.append(prob)
 
         if not mal_result:
             return None
 
         # Print and log the attack
-        self.log_format(mal_result, mal_flow, mal_proba)
+        #self.log_format(mal_result, mal_flow, mal_proba)
 
         # data to ips
         #obj2send = {"mal_result": mal_result, "mal_flow": mal_flow, "mal_proba": mal_proba}
         obj2send = {"mal_flow": mal_flow}
         return obj2send
 
-    def log_format(self, mal_result, mal_flow, mal_proba):
+    def log_format(self, mal_flow):
+        for flow in mal_flow:
+            temp = "From " + flow[0] + ":" + str(flow[1]) + " to " + flow[2] + ":" + str(flow[3]) + " -> DDoS Attack" 
+            self.logger.info(temp)
+            print(temp)        
+
+    """def log_format(self, mal_result, mal_flow, mal_proba):
         attack_dict = {0: "BENIGN", 1: "LDAP", 2: "MSSQL", 3: "NetBIOS", 4: "Portmap", 5: "Syn", 6: "UDP", 7: "UDPLag"}
         for res, flow, prob in zip(mal_result, mal_flow, mal_proba):
             temp = "From " + flow[0] + ":" + str(flow[1]) + " to " + flow[2] + ":" + str(flow[3]) + " -> Attack Type: " + str(attack_dict[res]) + " with probability: " + str(prob[res])
             self.logger.info(temp)
-            print(temp)
+            print(temp)"""
 
 
     def main_loop(self):

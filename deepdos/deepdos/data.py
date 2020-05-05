@@ -5,13 +5,14 @@ import pickle
 
 import numpy as np
 import pandas as pd
-from deepdos.conf import ETC_DIR, LATEST_STABLE_MODEL, MY_MODEL, create_logger
+from deepdos.conf import ETC_DIR, create_logger, ACTIVE_MODEL, LATEST_STABLE_MODEL, RF_MULTICLASS, RF_BINARY
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
-from sklearn.ensemble import RandomForestClassifier
-
+import tensorflow as tf
+tf.compat.v1.ConfigProto(allow_soft_placement=True)
 LOGGER = create_logger(__name__, "INFO")
 
 
@@ -45,7 +46,7 @@ def load_dataframe(
 
 def load_model(
     #has_model: bool = True, model_path: str = f"{LATEST_STABLE_MODEL}") -> LogisticRegression:
-    has_model: bool = True, model_path: str = f"{MY_MODEL}") -> RandomForestClassifier:
+    has_model: bool = True, model_path: str = f"{ACTIVE_MODEL}"):
     """
         Load or create the logistic regression model.
 
@@ -53,12 +54,38 @@ def load_model(
             A logistic regression model either created from scratch or
             loaded from a pickle file
     """
-    # Load the model from memory or from a beautiful pickle file
+    # Load the model from memory or from a pickle file
     if has_model:
-        lr_file = open(f"{ETC_DIR}/models/{model_path}", "rb")
-        model = pickle.load(lr_file)
-        lr_file.close()
-        LOGGER.info(f"Loaded model: {model_path}")
+        if ACTIVE_MODEL == LATEST_STABLE_MODEL or ACTIVE_MODEL == RF_MULTICLASS or ACTIVE_MODEL == RF_BINARY:
+            lr_file = open(f"{ETC_DIR}/models/{model_path}", "rb")
+            model = pickle.load(lr_file)
+            lr_file.close()
+            LOGGER.info(f"Loaded model: {model_path}")
+        else:
+            # 1. define the network
+            model = tf.keras.models.Sequential()
+            model.add(tf.keras.layers.Flatten())
+
+            model.add(tf.keras.layers.Dense(1024, activation='relu', input_shape=(None, 15)))
+            model.add(tf.keras.layers.BatchNormalization())
+            model.add(tf.keras.layers.Dropout(0.01))
+            model.add(tf.keras.layers.Dense(768, activation='relu'))
+            model.add(tf.keras.layers.Dropout(0.01))
+            model.add(tf.keras.layers.BatchNormalization())
+            model.add(tf.keras.layers.Dense(512, activation='relu'))
+            model.add(tf.keras.layers.Dropout(0.01))
+            model.add(tf.keras.layers.BatchNormalization())
+            model.add(tf.keras.layers.Dense(256, activation='relu'))
+            model.add(tf.keras.layers.Dropout(0.01))
+            model.add(tf.keras.layers.BatchNormalization())
+            model.add(tf.keras.layers.Dense(128, activation='relu'))
+            model.add(tf.keras.layers.Dropout(0.01))
+            model.add(tf.keras.layers.BatchNormalization())
+            model.add(tf.keras.layers.Dense(1, activation='softmax'))
+
+            # try using different optimizers and different optimizer configs
+            model.compile(loss='binary_crossentropy',optimizer=tf.keras.optimizers.Adam(learning_rate=0.1),metrics=['accuracy'])            
+            model.load_weights(f"{ETC_DIR}/models/{model_path}")
     else:
         lr_file = open(f"{ETC_DIR}/models/{model_path}", "wb")
         model = create_lr()
@@ -80,40 +107,6 @@ def dt2min(dt):
 
 def dt2sec(dt):
     return dt.split(' ')[1].split('.')[0].split(':')[2]
-
-"""
-def parse_flow_data(path: str = f"{ETC_DIR}/flow_output/out.pcap_Flow.csv"):
-    """ """
-        Parse the model data
-
-        Args:
-            path - The path to the generated flow data csv file.
-
-        Returns:
-            A dictionary containing the model input data and then the metadata about
-            the parsed data
-    """ """
-    # Load the df from memory
-
-    LOGGER.info("Converting CSV into dataframes")
-    dataframe = load_dataframe(path)
-    metadata = pd.DataFrame()
-
-    # Setup metadata dataframe through the overall dataframe
-    metadata["from_ip"] = dataframe["Src IP"]
-    metadata["to_ip"] = dataframe["Dst IP"]
-    metadata["protocol"] = dataframe["Protocol"]
-    metadata["from_port"] = dataframe["Src Port"]
-    metadata["to_port"] = dataframe["Dst Port"]
-
-    # Clean up the dataframe and create training testing data
-    LOGGER.info("Cleaning the input dataframe and then getting model input data")
-    preprocess_df(dataframe)
-    x_train, x_test, _, _ = get_train_test(dataframe)
-    data = np.concatenate((x_test, x_train))
-
-    return {"data": data, "metadata": metadata}
-"""
 
 def parse_flow_data(path: str = f"{ETC_DIR}/flow_output/out.pcap_Flow.csv"):
     """
